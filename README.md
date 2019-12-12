@@ -28,7 +28,7 @@ $ gem install juandpineiro_palindrome
 
 ```
 $ irb
->> require 'mhartl_palindrome'
+>> require 'juandpineiro_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
