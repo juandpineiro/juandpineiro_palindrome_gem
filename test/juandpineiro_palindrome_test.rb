@@ -24,4 +24,12 @@ class JuandpineiroPalindromeTest < Minitest::Test
   def test_integer_palindrome
     assert 12321.palindrome?
   end
+
+  def test_empty_string_non_palindrome
+    refute ''.palindrome?
+  end
+
+  def test_whitespace_string_non_palindrome
+    refute "  \n \t \r   ".palindrome?
+  end
 end

@@ -14,6 +14,7 @@ module JuandpineiroPalindrome
 
   # Returns content for palindrome testing.
   def processed_content
+    # Ignores anything that is not a letter or number
     to_s.scan(/[a-z\d]/i).join.downcase
   end
 end
